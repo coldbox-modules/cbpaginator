@@ -191,8 +191,8 @@ component singleton accessors="true" {
 	 *
 	 * @return The page start offset
 	 */
-	public function getPageOffset( page = 1, maxRows = 25 ){
-		return ( arguments.page * arguments.maxRows - arguments.maxRows );
+	public function getPageOffset( numeric page = 1, numeric maxRows = 25 ){
+		return arguments.page > 0 ? ( arguments.page * arguments.maxRows - arguments.maxRows ) : 0;
 	}
 
 }
