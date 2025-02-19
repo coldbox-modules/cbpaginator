@@ -14,7 +14,7 @@ Apache License, Version 2.0.
 
 ## REPOSITORY
 
-The official repository for the [cbPaginator](https://forgebox.io/view/cbpaginator) module can be found [here](https://github.com/quinteroj/pagination).
+The official repository for the [cbPaginator](https://forgebox.io/view/cbpaginator) module can be found [here](https://github.com/coldbox-modules/cbpaginator).
 
 ## Instructions
 
